@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 class Navbar extends Component {
   render() {
     return (
@@ -7,7 +8,8 @@ class Navbar extends Component {
         <nav className="navbar navbar-dark navbar-expand-md fixed-top ">
         
       <div className="container site-nav-wrapper">
-        <Link to="" className="navbar-brand smoth-scroll">GNDEC Home</Link>
+      
+                <a target="_blank" href="https://gndec.ac.in" className="navbar-brand smoth-scroll">GNDEC Home</a>
 
         <span id="mobile-nav-open-btn">
           &#9776;

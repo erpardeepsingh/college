@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 class Contained extends Component {
   render() {
     return (
-      <div class="col-1-of-3 wow fadeInUp" data-wow-duration="2s">
-      <div class="about-item text-center">
-        <i class="fa fa-eye"></i>
+      <div className="col-1-of-3 wow fadeInUp" data-wow-duration="2s">
+      <div className="about-item text-center">
+        <i className="fa fa-eye"></i>
         <h3>vision</h3>
         <hr />
         <p>

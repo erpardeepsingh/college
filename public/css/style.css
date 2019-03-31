@@ -720,7 +720,7 @@ stats
 
 .section-links {
   padding: 10rem 0;
-  background-image: linear-gradient(to top right, #4ED8F7, #26AFEB 70%); }
+   }
 
 .section_PO_PEO {
   padding: 10rem 0;
@@ -729,3 +729,34 @@ stats
 .footer {
   padding: 10rem 0;
   background-color: #101d2c; }
+  @media only screen and (min-width : 320px) and (max-width : 480px) {
+    /* Styles */
+    .header
+    {
+      height: 40vh;
+    }
+    }
+    @media only screen and (min-width : 481px) and (max-width : 720px) {
+      /* Styles */
+      .header
+      {
+        height: 60vh;
+      }
+      }
+      @media only screen and (min-width : 721px) and (max-width : 1080px) {
+        /* Styles */
+        .header
+        {
+          height: 80vh;
+        }
+        }
+  
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+    /* Styles */
+    .header
+    {
+      height: 30vh;
+    }
+    }
+    

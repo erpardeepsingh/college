@@ -1,39 +1,39 @@
 import React, { Component } from 'react'
-
+import { Link } from 'react-router-dom';
 class Notices extends Component {
   render() {
     return (
-        <div class="col-md-4  u-margin-bottom-medium  wow fadeInLeft">
-        <h1 class="u-margin-bottom-small">News and Events</h1>
-        <ul class="list-group dept">
-          <li class="list-group-item">
-            <a href="#" class="dept-link">Rescheduled Synopsis Presentation of Major Project</a>
+        <div className="col-md-4  u-margin-bottom-medium  wow fadeInLeft">
+        <h1 className="u-margin-bottom-small">News and Events</h1>
+        <ul className="list-group dept">
+          <li className="list-group-item">
+            <Link to="#" className="dept-link">Rescheduled Synopsis Presentation of Major Project</Link>
           </li>
-          <li class="list-group-item">
-            <a href="#" class="dept-link">Groups and Guides allotted to Third Year Students for Minor
-              Project</a>
+          <li className="list-group-item">
+            <Link to="#" className="dept-link">Groups and Guides allotted to Third Year Students for Minor
+              Project</Link>
           </li>
-          <li class="list-group-item">
-            <a href="#" class="dept-link">Groups and Guides allotted to final year students (Morning
-              Shift)</a>
+          <li className="list-group-item">
+            <Link to="#" className="dept-link">Groups and Guides allotted to final year students (Morning
+              Shift)</Link>
           </li>
-          <li class="list-group-item">
-            <a href="#" class="dept-link">Groups and Guides alloted to final year students (Evening
-              Shift)</a>
+          <li className="list-group-item">
+            <Link to="#" className="dept-link">Groups and Guides alloted to final year students (Evening
+              Shift)</Link>
           </li>
-          <li class="list-group-item">
-            <a href="#" class="dept-link">List of Elective Subjects Allotment of Final Year Students
-              for Session Jan-May, 2019</a>
+          <li className="list-group-item">
+            <Link to="#" className="dept-link">List of Elective Subjects Allotment of Final Year Students
+              for Session Jan-May, 2019</Link>
           </li>
-          <li class="list-group-item">
-            <a href="#" class="dept-link">List of Elective Subjects Allotment of Third Year</a>
+          <li className="list-group-item">
+            <Link to="#" className="dept-link">List of Elective Subjects Allotment of Third Year</Link>
           </li>
-          <li class="list-group-item">
-            <a href="#" class="dept-link">List of Elective Subjects Allotment of Third Year Students
-              for Session Jan-May, 2019</a>
+          <li className="list-group-item">
+            <Link to="#" className="dept-link">List of Elective Subjects Allotment of Third Year Students
+              for Session Jan-May, 2019</Link>
           </li>
-          <li class="list-group-item">
-            <a href="#" class="dept-link">Academic Calendar for session 2018-19 (Even Semester)</a>
+          <li className="list-group-item">
+            <Link to="#" className="dept-link">Academic Calendar for session 2018-19 (Even Semester)</Link>
           </li>
         </ul>
       </div>

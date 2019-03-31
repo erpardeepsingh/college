@@ -5,12 +5,12 @@ class Header extends Component {
   render() {
     return (
       <div>
-          <header class="header" id="home">
+          <header className="header" id="home">
    <Navbar/>
      
   
     <div id="home-content">
-      <div id="home-content-inner" class="text-center">
+      <div id="home-content-inner" className="text-center">
         <div id="home-heading">
           <h1 id="home-heading-1">Department Of</h1>
           <br />
@@ -28,8 +28,8 @@ class Header extends Component {
     </div>
 
     
-    <Link to="#about" id="arrow-down" class="smoth-scroll">
-      <i class="fa fa-angle-down"></i>
+    <Link to="#about" id="arrow-down" className="smoth-scroll">
+      <i className="fa fa-angle-down"></i>
     </Link>
   </header>
       </div>

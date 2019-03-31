@@ -3,14 +3,14 @@ import React, { Component } from 'react'
 class Info extends Component {
   render() {
     return (
-      <div  class="col-3-of-4  wow fadeInLeft">
+      <div  className="col-3-of-4  wow fadeInLeft">
           <div id="about-left">
-            <div class="vertical-heading dark">
+            <div className="vertical-heading dark">
               <h5>Who we are</h5>
               <h2>A <strong>Story</strong><br />About us</h2>
             </div>
           </div>
-       <p class="u-margin-top-small text-justify">
+       <p className="u-margin-top-small text-justify">
             Department of Computer Science and Engineering is established in
             year 1997. Department is offering B.Tech. and M.Tech. programs in
             Computer Science and Engineering. Laboratories of the department

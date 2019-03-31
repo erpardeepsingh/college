@@ -10,9 +10,7 @@ import Achievement from './components/layout/Achievement';
 import Notices from './components/layout/Notices';
 class App extends Component {
   render() {
-    const style={
-     marginleft:'0'
-    }
+    
     return (
       <Router>
       <div className="App">
