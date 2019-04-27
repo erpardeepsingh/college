@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 class Navbar extends Component {
   render() {
     return (
@@ -8,37 +9,38 @@ class Navbar extends Component {
         <nav className="navbar navbar-dark navbar-expand-md fixed-top ">
         
       <div className="container site-nav-wrapper">
-      
-                <a target="_blank" href="https://gndec.ac.in" className="navbar-brand smoth-scroll">GNDEC Home</a>
-
+      <a className="navbar-brand" href="https://gndec.ac.in">GNDEC HOME</a>
+       
+                
         <span id="mobile-nav-open-btn">
           &#9776;
         </span>
         <div className="collapse navbar-collapse" id="myNav">
           <ul className="nav navbar-nav ml-auto">
             <li className="nav-item">
-              <Link to="#home" className="nav-link smoth-scroll">Home</Link>
+              <Link to="/" className="nav-link">Home</Link>
+            </li>
+         
+            <li className="nav-item">
+            <a href="#about-02" class="nav-link smoth-scroll">Vision and Mission</a>
             </li>
             <li className="nav-item">
-              <Link to="#about-02" className="nav-link smoth-scroll">Vision and Mission</Link>
+              <Link to="/posts" className="nav-link">Courses</Link>
             </li>
             <li className="nav-item">
-              <Link to="#" className="nav-link smoth-scroll">Courses</Link>
+              <Link to="#" className="nav-link">BOS</Link>
             </li>
             <li className="nav-item">
-              <Link to="#" className="nav-link smoth-scroll">BOS</Link>
+              <Link to="#PO_PEO" className="nav-link">PO and PEO</Link>
             </li>
             <li className="nav-item">
-              <Link to="#PO_PEO" className="nav-link smoth-scroll">PO and PEO</Link>
+              <Link to="#" className="nav-link">Faculty</Link>
             </li>
             <li className="nav-item">
-              <Link to="#" className="nav-link smoth-scroll">Faculty</Link>
+              <Link to="#" className="nav-link">Time Tables</Link>
             </li>
             <li className="nav-item">
-              <Link to="#" className="nav-link smoth-scroll">Time Tables</Link>
-            </li>
-            <li className="nav-item">
-              <Link to="#" className="nav-link smoth-scroll">CSI</Link>
+              <Link to="#" className="nav-link">CSI</Link>
             </li>
           </ul>
         </div>
@@ -51,28 +53,28 @@ class Navbar extends Component {
           <div id="mobile-nav-content">
             <ul className="nav">
               <li className="nav-item">
-                <Link to="#home" className="nav-link smoth-scroll">Home</Link>
+                <Link to="/" className="nav-link">Home</Link>
               </li>
               <li className="nav-item">
-                <Link to="#" className="nav-link smoth-scroll">Vision and Mission</Link>
+                <Link to="#" className="nav-link">Vision and Mission</Link>
               </li>
               <li className="nav-item">
-                <Link to="#" className="nav-link smoth-scroll">Courses</Link>
+                <Link to="#" className="nav-link">Courses</Link>
               </li>
               <li className="nav-item">
-                <Link to="#" className="nav-link smoth-scroll">BOS</Link>
+                <Link to="#" className="nav-link">BOS</Link>
               </li>
               <li className="nav-item">
-                <Link to="#PO_PEO" className="nav-link smoth-scroll">PO and PEO</Link>
+                <Link to="#PO_PEO" className="nav-link">PO and PEO</Link>
               </li>
               <li className="nav-item">
-                <Link to="#" className="nav-link smoth-scroll">Faculty</Link>
+                <Link to="#" className="nav-link">Faculty</Link>
               </li>
               <li className="nav-item">
-                <Link to="#" className="nav-link smoth-scroll">Time Tables</Link>
+                <Link to="#" className="nav-link">Time Tables</Link>
               </li>
               <li className="nav-item">
-                <Link to="#" className="nav-link smoth-scroll">CSI</Link>
+                <Link to="#" className="nav-link">CSI</Link>
               </li>
             </ul>
           </div>
