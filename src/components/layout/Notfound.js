@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Nf.css';
 class Notfound extends Component {
   render() {
@@ -9,7 +10,7 @@ class Notfound extends Component {
 				<h1>404</h1>
 				<h2>Page not found</h2>
 			</div>
-			<a href="/">Homepage</a>
+			<Link to="/">Homepage</Link>
 		</div>
 	</div>
     )

@@ -1,4 +1,4 @@
-import React, { Component,browserHistory } from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Notfound from './components/layout/Notfound';
 import Landing from './components/layout/Landing';
@@ -8,12 +8,13 @@ class App extends Component {
     
     return (
       
-      <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
+      <Router onUpdate={() => window.scrollTo(0, 0)}>
         <div className="App">
-        <Switch>
+        <Switch onUpdate={() => window.scrollTo(0, 0)}>
           
           <Route exact path="/" component={Landing}/>
-          <Route exact path="/posts" component={Posts}/>
+          <Route path="/posts/:id" component={Posts}/>
+          
           <Route exact path="*" component={Notfound} />
           </Switch>
      </div>

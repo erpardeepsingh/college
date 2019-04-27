@@ -11,26 +11,19 @@ class Header extends Component {
   
     <div id="home-content">
       <div id="home-content-inner" className="text-center">
-        <div id="home-heading">
+        <div id="home-heading"><br/><br/><br/>
           <h1 id="home-heading-1">Department Of</h1>
           <br />
-          <h1 id="home-heading-2">Computer <span>Science</span></h1>
-        </div>
-
-        <div id="home-text">
-          <p>
-            The <span>computer</span> was born to
-            <span>solve problems</span> that did not
-            <span>exist</span> before.
-          </p>
+          <h1 id="home-heading-2">Computer <span>Science</span></h1><br/>
+          <h1 id="home-heading-2"><span>And</span>Engineering</h1><br/>
         </div>
       </div>
     </div>
 
     
-    <Link to="#about" id="arrow-down" className="smoth-scroll">
+    <a href="#about" id="arrow-down" className="smoth-scroll">
       <i className="fa fa-angle-down"></i>
-    </Link>
+    </a>
   </header>
       </div>
     )

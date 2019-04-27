@@ -2,6 +2,7 @@
                   preloader
 ===================================================
 */
+
 $(window).on('load', function () { // makes sure that whole site is loaded
     $('#status').fadeOut();
     $('#preloader').delay(350).fadeOut('slow');
@@ -187,7 +188,7 @@ $(function () {
     });
 
     function showHideNav() {
-        if ($(window).scrollTop() > 50) {
+        if ($(window).scrollTop() > -20) {
             $("nav").addClass("white-nav-top");
 
             // show dark logo

@@ -8,7 +8,7 @@ class Footer extends Component {
     <div className="container wow fadeInUp">
       <ul className="footer-nav">
         <li className="footer-nav__item">
-          <Link to="#" className="footer-nav__link">Departmental Library</Link>
+          <a href="https://gndec.refread.com" className="footer-nav__link">Departmental Library</a>
         </li>
         <li className="footer-nav__item">
           <Link to="#" className="footer-nav__link">Laboratories </Link>
@@ -17,7 +17,7 @@ class Footer extends Component {
           <Link to="#" className="footer-nav__link">Other Infrastructure </Link>
         </li>
         <li className="footer-nav__item">
-          <Link to="#" className="footer-nav__link">Training and Placement</Link>
+          <a href="https://tnpgndec.com" className="footer-nav__link">Training and Placement</a>
         </li>
       </ul>
       <p className="copyright">
