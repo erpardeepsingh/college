@@ -22,16 +22,14 @@ class Navbar extends Component {
             </li>
          
             <li className="nav-item">
-            <a href="#about-02" class="nav-link smoth-scroll">Vision and Mission</a>
+            <a href="../../#about-02" class="nav-link smoth-scroll">Vision and Mission</a>
             </li>
             <li className="nav-item">
               <Link to="/posts/Courses" className="nav-link">Courses</Link>
             </li>
+            
             <li className="nav-item">
-              <Link to="#" className="nav-link">BOS</Link>
-            </li>
-            <li className="nav-item">
-              <a href="#PO_PEO" className="nav-link smoth-scroll">PO and PEO</a>
+              <a href="../../#PO_PEO" className="nav-link smoth-scroll">PO and PEO</a>
             </li>
             <li className="nav-item">
               <Link to="/posts/Faculty" className="nav-link">Faculty</Link>
@@ -40,7 +38,7 @@ class Navbar extends Component {
               <Link to="/posts/timetable" className="nav-link">Time Tables</Link>
             </li>
             <li className="nav-item">
-              <Link to="#" className="nav-link">CSI</Link>
+              <Link to="/posts/add" className="nav-link">Add New Post</Link>
             </li>
           </ul>
         </div>
@@ -56,7 +54,7 @@ class Navbar extends Component {
                 <Link to="/" className="nav-link">Home</Link>
               </li>
               <li className="nav-item">
-                <a href="#about-02" className="nav-link smoth-scroll">Vision and Mission</a>
+                <a href="../../#about-02" className="nav-link smoth-scroll">Vision and Mission</a>
               </li>
               <li className="nav-item">
                 <Link to="/posts/Courses" className="nav-link">Courses</Link>
@@ -65,7 +63,7 @@ class Navbar extends Component {
                 <Link to="#" className="nav-link">BOS</Link>
               </li>
               <li className="nav-item">
-                <a href="#PO_PEO" className="nav-link smoth-scroll">PO and PEO</a>
+                <a href="../../#PO_PEO" className="nav-link smoth-scroll">PO and PEO</a>
               </li>
               <li className="nav-item">
                 <Link to="/posts/Faculty" className="nav-link">Faculty</Link>
@@ -74,7 +72,7 @@ class Navbar extends Component {
                 <Link to="/posts/timetable" className="nav-link">Time Tables</Link>
               </li>
               <li className="nav-item">
-                <Link to="#" className="nav-link">CSI</Link>
+                <Link to="/posts/add" className="nav-link">Add New Post</Link>
               </li>
             </ul>
           </div>
