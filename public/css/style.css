@@ -528,13 +528,16 @@ About-02
   transform: translateY(-20px); }
 
 /* Smooth Transition */
+
 .about-item,
 .about-item i,
 .about-item hr {
   transition: all .4s ease-in-out; }
 
 .dept {
-  box-shadow: var(--shadow-medium); }
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;}
   .dept-link {
     font-size: 1.4rem;
     font-weight: 500;

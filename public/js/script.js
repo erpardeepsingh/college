@@ -188,7 +188,7 @@ $(function () {
     });
 
     function showHideNav() {
-        if ($(window).scrollTop() > -20) {
+        if ($(window).scrollTop() > 0) {
             $("nav").addClass("white-nav-top");
 
             // show dark logo

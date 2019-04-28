@@ -59,9 +59,7 @@ class Navbar extends Component {
               <li className="nav-item">
                 <Link to="/posts/Courses" className="nav-link">Courses</Link>
               </li>
-              <li className="nav-item">
-                <Link to="#" className="nav-link">BOS</Link>
-              </li>
+              
               <li className="nav-item">
                 <a href="../../#PO_PEO" className="nav-link smoth-scroll">PO and PEO</a>
               </li>

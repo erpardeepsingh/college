@@ -15,7 +15,7 @@ class Header extends Component {
           <h1 id="home-heading-1">Department Of</h1>
           <br />
           <h1 id="home-heading-2">Computer <span>Science</span></h1><br/>
-          <h1 id="home-heading-2"><span>And</span>Engineering</h1><br/>
+          <h1 id="home-heading-2"><span>And </span>Engineering</h1><br/>
         </div>
       </div>
     </div>
